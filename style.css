@@ -1,0 +1,47 @@
+.nav-container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: azure;
+     
+}
+h1{
+    font-size: 35px;
+}
+.to{
+    color: coral;
+}
+ul{
+    display: flex;
+   
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    align-items: center;
+}
+/*this is banner styles*/
+
+.banner-content{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.banner{
+    display: flex;
+    gap: 100px;
+}
