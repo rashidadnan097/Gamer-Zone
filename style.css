@@ -106,16 +106,12 @@ a{
     color: darkorchid;
 }
 .img1{
-    width: 400px;
-    height: 400px;
     position: absolute;
     z-index: 2;
     margin-left: 350px;
     margin-top: 250px;
 }
 .img2{
-    width: 200px;
-    height: 200px;
     position: absolute;
     z-index: 1;
     
@@ -171,12 +167,19 @@ footer{
     font-size: 8px;
 }
 .button{
+    display: flex;
    margin: 250px 50px 50px 50px;
-   text-align: center;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
    padding: 20px;
 }
-
+.align{
+    align-items: center;
+}
 .uniqe{
+    align-items: center;
+    display: flex;
     border: none;
     border-radius: 20px;
     margin-right: 20px;
@@ -196,6 +199,7 @@ footer{
         display: grid;
         flex-direction: column;
         justify-items: center;
+       
     }
     ul{
         display: grid;
@@ -208,11 +212,11 @@ footer{
         flex-direction: column-reverse;
     }
     .banner-content{
-       width: 230px;
+       width: 170px;
        padding: 20px 88px;
     }
     .banner-img img{
-        width: 100% auto;
+        width: 100% ;
     }
     .card{
         display: grid;
@@ -227,10 +231,19 @@ footer{
     .zcontent{
         text-align: center;
     }
-    .img1{
-        margin-left: 250px;
-        margin-top: 250px;
+    .img2 img{
+        width: 300px;
+        height: 250px;
     }
+    .img1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .img1{
+        margin-left: 200px;
+        margin-top: 150px;
+    }
+
     .button{
         margin: 500px 40px 50px 50px;
         display: grid;
